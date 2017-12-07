@@ -25,7 +25,6 @@ body {
 .cards {
   text-align: center;
   margin: 0;
-  padding: 0;
   list-style-type: none;
   text-decoration: none;
   padding: 0 .5em;
@@ -53,7 +52,8 @@ body {
   margin: 0;
 }
 
-@media only screen and (min-width:25em) {
+@media only screen and (min-width: 25em) {
+
   .card-img {
     display: inline-block;
   }
@@ -62,8 +62,37 @@ body {
     display: inline-block;
     width: 85%;
     vertical-align: top;
+    padding-left: .7em;
+  }
+
+  .cards {
+    padding: .5em .5em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .card {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+  }
+
+  .card-body {
+    display: block;
+    width: 100%;
   }
 
   .card-img img {
-    }
+    display: block;
+  }
+
+  .card-img {
+    display: block;
+  }
+
+@media only screen and (min-width: 60em) {
+}
+
+@media only screen and (min-width: 90em) {
 }
