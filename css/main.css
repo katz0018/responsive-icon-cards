@@ -93,7 +93,35 @@ body {
 
 @media only screen and (min-width: 60em) {
 
+  .card-img img {
+    margin: 0 auto 1.5rem;
+  }
+
+  .card {
+    width: 19%;
+  }
+
+  .card-body h2 {
+    font-size: 1.6rem;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
+
+  .card-img {
+    display: inline-block;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding-left: .7em;
+  }
+
+  .cards {
+    padding: .5em .5em;
+    width: 100%;
+  }
 }
