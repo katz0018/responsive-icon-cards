@@ -115,13 +115,13 @@ body {
 
   .card-body {
     display: inline-block;
-    width: 100%;
+    width: 50%;
     vertical-align: top;
     padding-left: .7em;
   }
 
-  .cards {
+  .card {
     padding: .5em .5em;
-    width: 100%;
+    width: 50%;
   }
 }
