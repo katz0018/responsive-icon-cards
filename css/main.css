@@ -90,6 +90,7 @@ body {
   .card-img {
     display: block;
   }
+}
 
 @media only screen and (min-width: 60em) {
 
@@ -124,4 +125,5 @@ body {
     padding: .5em .5em;
     width: 50%;
   }
+
 }
