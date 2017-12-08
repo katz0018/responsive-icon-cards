@@ -72,6 +72,11 @@ body {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+  font-size: 110%;
+  line-height: 1.4;
+}
+
   .card {
     display: inline-block;
     width: 32%;
@@ -94,6 +99,11 @@ body {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+  font-size: 120%;
+  line-height: 1.5;
+}
+
   .card-img img {
     margin: 0 auto 1.5rem;
   }
@@ -109,6 +119,10 @@ body {
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+  font-size: 130%;
+}
 
   .card-img {
     display: inline-block;
